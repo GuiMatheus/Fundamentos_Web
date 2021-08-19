@@ -5,41 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <ul>
-        <li> <a href="index.html">Home </a> </li>
-        <li> <a href="contatos.html">Contato </a> </li>
+<body class="corfundo">
+    <ul id="menu">
+        <li> 
+            <a href="index.html">Home </a> 
+        </li>
+        <li> 
+            <a href="contatos.html">Contato </a> 
+        </li>
     </ul>
 
-    <h1>Entre em Contato Comigo</h1>
+    <h1 class="center">Entre em Contato Comigo</h1>
     
 
-    <form >
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome">
+    <div class="container mb-50">
+        <div >
+            <h2>Me mande uma mensagem:</h2>
+            <form >
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+            <br>
+            <br>
+                <label for="email">E-mail:</label> <br>
+                <input type="email" id="email">
+            <br>
+            <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="50" rows="10"></textarea>
+            <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email">
+        <div class="ml-50">
+            <h2>Endereço</h2>
+            <p>Rua Mateus Barbosa de Rezende 72</p>
         
-        <label for="assunto">Assunto:</label>
-        <textarea name="assunto" id="assunto" cols="60" rows="20"></textarea>
+            <p>São Paulo - SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.6130227739693!2d-46.413199511931055!3d-23.516236769317175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzU4LjUiUyA0NsKwMjQnNDUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1629211965551!5m2!1spt-BR!2sbr"
+        width="400" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+            </iframe>
+        
+        </div>
 
-        <button>Enviar</button>
-    </form>
 
-    <h2>Endereço</h2>
-<p>Rua Mateus Barbosa de Rezende 72</p>
+    </div>
 
-<p>São Paulo - SP</p>
+    <hr>
+    <footer class="center">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.6130227739693!2d-46.413199511931055!3d-23.516236769317175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMwJzU4LjUiUyA0NsKwMjQnNDUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1629211965551!5m2!1spt-BR!2sbr"
-width="400" 
-height="300" 
-style="border:0;" 
-allowfullscreen="" 
-loading="lazy">
-</iframe>
+        <div class="container">
+            
+            <a href="https://www.linkedin.com/in/guilherme-matheus99/" target="_blank">
+                <img class="tm-social P-30" src="assets/imagens/linkedin.png" alt="Icone do Lindekin" srcset="">
+            </a>
 
+            <a href="https://www.instagram.com/guimaths_senju/" target="_blank">
+                <img class="tm-social P-30" src="assets/imagens/instagram.png" alt="Icone do Instagram" srcset="">
+            </a>
+           
+           
+        </div>
+        <p>
+            Todos os direitos reservados: Ancião de Jade Guivankuver &copy;
+        </p> 
+    </footer>
+
+  
+
+    
 </body>
 </html>
